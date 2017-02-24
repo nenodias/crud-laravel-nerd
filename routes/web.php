@@ -11,6 +11,9 @@
 |
 */
 
+Route::get('/',function(){
+	return redirect()->route('nerds.index');
+});
 Route::resource('nerds','NerdController');
 
 /*

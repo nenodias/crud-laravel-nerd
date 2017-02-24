@@ -3,3 +3,5 @@
 /public/storage
 .env
 /database/database.sqlite
+.phpcomplete_extended/
+composer.lock

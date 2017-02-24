@@ -11,6 +11,10 @@
 |
 */
 
+Route::resource('nerds','NerdController');
+
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+ */
